@@ -1,0 +1,64 @@
+@media only screen and (max-width: 768px) {
+    .banner-image-home .container h1 {
+        margin: 0px;
+        padding: 0%;
+    }
+
+    header .navbar-brand {
+        padding-left: 1rem;
+    }
+
+    /* ____________________________________________________________ */
+    .section-1-home,
+    .section-1-home .container .row,
+    .section-1-home .row col {
+        position: initial;
+        width: initial;
+        height: initial;
+
+    }
+
+    .section-1-home .container .row .col img {
+        height: 500px;
+        width: 310px;
+        padding: 10px;
+        margin-bottom: 20px;
+
+    }
+
+    /* ___________________________________________________ */
+    .section_1_aboutus,
+    .section_2_aboutus,
+    .section_3_aboutus,
+    .section_4_aboutus,
+    .section_5_aboutus,
+    .section_6_aboutus {
+        position: initial;
+        width: initial;
+        height: initial;
+        padding: 10%;
+        margin: 0%;
+    }
+
+    .section_1_aboutus h2,
+    .section_2_aboutus h2,
+    .section_3_aboutus h2,
+    .section_4_aboutus h2,
+    .section_5_aboutus h2,
+    .section_6_aboutus h2 {
+        text-align: center;
+        margin-bottom: 5px;
+        font-size: 45px;
+    }
+
+    .section_1_aboutus p,
+    .section_2_aboutus p,
+    .section_3_aboutus p,
+    .section_4_aboutus ul li {
+        font-size: 16px;
+    }
+    .section_5_aboutus .py-5 .row .col-lg-3 {
+        width: 250px;
+        background-color: blue;
+    }
+}

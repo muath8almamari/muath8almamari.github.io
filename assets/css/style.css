@@ -1,0 +1,279 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f6f6;
+}
+
+.nav-color {
+    background-image: linear-gradient(to right, #283c4c, #3c5f81ec);
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+.dropdown-menu {
+    background-color: #283c4c;
+}
+
+.dropdown-menu {
+    background-color: #283c4c;
+}
+
+.dropdown-item {
+    color: rgb(207, 207, 207);
+    font-size: 19px;
+}
+
+.dropdown-item:hover {
+    background-color: #314a5e;
+    color: white;
+}
+
+.social_media ul li {
+    display: inline;
+    margin: 2px;
+}
+
+
+/* _______________________________
+banner image and animation 
+__________________________________*/
+
+.banner-image-home {
+    background-image: url('../../assets/images/nav_bg.png');
+    background-size: cover;
+    margin: 0;
+}
+
+.banner-image-home .container h1 {
+    font-family: "Montserrat Medium";
+    margin-left: 150px;
+    max-width: 40ch;
+    text-align: center;
+    font-size: 41px;
+    transform: scale(0.94);
+    animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+@keyframes scale {
+    100% {
+        transform: scale(1);
+    }
+}
+
+.banner-image-home .container span {
+    display: inline-block;
+    opacity: 0;
+    filter: blur(4px);
+}
+
+.banner-image-home .container span:nth-child(1) {
+    font-size: 60px;
+    animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.banner-image-home .container span:nth-child(2) {
+    animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.banner-image-home .container span:nth-child(3) {
+    animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.banner-image-home .container span:nth-child(4) {
+    animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+@keyframes fade-in {
+    100% {
+        opacity: 1;
+        filter: blur(0);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .banner-image .container h1 {
+        margin: 0px;
+    }
+
+    .navbar {
+        background-image: linear-gradient(to right, #283c4c, #3c5f81ec);
+    }
+}
+
+
+/* _______________________________
+main containt
+____________________________________ */
+
+
+/* ---------------section 1 ------------------- */
+.section-1-home {
+    padding: 100px 0px 100px 0px;
+}
+
+.section-1-home .container .row .col h2 {
+    font-size: 45px;
+
+}
+
+.section-1-home .container .row .col p {
+    font-size: 20px;
+
+}
+
+
+/* ---------------section 2 ------------------- */
+
+.cover {
+    width: 100%;
+    height: 55vmin;
+    background: url("../../assets/images/sohar_port_bg.jpg");
+    background-position: -24rem -19rem;
+    background-size: 150%;
+    position: relative;
+}
+
+.cover .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+}
+
+.cover .content {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    padding-top: 19vmin;
+}
+
+.cover .content>h1 {
+    font-family: var(--Patua);
+    font-size: 6vmin;
+    color: white;
+}
+
+.cover .content>p {
+    font-family: var(--Rubik);
+    font-size: 2vmin;
+    color: #e5e5e5;
+}
+
+.main-clints .rect {
+    position: relative;
+    z-index: 1;
+    background: rgb(255, 255, 255);
+    width: 17rem;
+    height: 16rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: 0.5em;
+    box-shadow: 1px 2px 50px 0px rgba(32, 56, 160, 0.425);
+}
+
+.main-clints {
+    margin-top: -25vmin;
+}
+
+.purchase>h1 {
+    padding-top: 15vmin;
+    padding-bottom: 0.1em;
+    font-family: var(--Lobster);
+}
+
+.purchase>p {
+    color: var(--light-black);
+    font-size: 3vmin;
+    padding-bottom: 10vmin;
+}
+
+.purchase .cards .card {
+    width: 22rem;
+    margin: 3vmin 3vmin;
+}
+
+.cards div {
+    padding: 0;
+    margin: 0;
+}
+
+.cards .title {
+    background: rgba(208, 241, 241, 0.199);
+    padding: 1.4em 2.5em;
+    font-size: 2vmin;
+}
+
+.card .card-text {
+    padding: 2.5rem 3rem;
+    color: var(--light-black);
+}
+
+.card-body .pricing {
+    background: rgba(208, 241, 241, 0.199);
+    border-top-right-radius: 170px;
+    border-top-left-radius: 170px;
+}
+
+.card-body .pricing>h1 {
+    font-size: 10vmin;
+    padding: 1em 0.5em;
+}
+
+footer {
+    background: #bfd5eb;
+    overflow-x: hidden;
+    margin-top: 50px;
+    padding: 14vmin 18vmin;
+}
+
+.footer-up {
+    background-image: linear-gradient(to right, #283c4c, #3c5f81);
+}
+
+/* _____________________________________________
+
+_______________________________________________________*/
+.banner_image_aboutus {
+    background-image: url('../../assets/images/about_us_banner.png');
+    background-size: cover;
+    margin: 0;
+    height: 500px;
+}
+
+.section_1_aboutus,
+.section_2_aboutus,
+.section_3_aboutus,
+.section_4_aboutus,
+.section_5_aboutus,
+.section_6_aboutus {
+    margin: 50px 100px 0px 100px;
+    
+}
+
+.section_1_aboutus h2,
+.section_2_aboutus h2,
+.section_3_aboutus h2,
+.section_4_aboutus h2,
+.section_5_aboutus h2,
+.section_6_aboutus h2 {
+    font-family: "Bauhaus 93";
+    font-size: 40px;
+    color: #3c5f81;
+
+}
+
+.section_1_aboutus p,
+.section_2_aboutus p,
+.section_3_aboutus p {
+    font-size: 20px;
+}
+.section_4_aboutus ul li {
+    font-size: 20px;
+    list-style-type: square;
+}
